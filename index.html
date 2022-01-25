@@ -16,7 +16,7 @@
     <!-- style css link  -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body style="height: 2300px;">
     <header>
         <nav style="position: relative;" class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
@@ -47,7 +47,7 @@
     <main>
 
         <section>
-            <div id="carouselExampleCaptions" class="carousel slide my-auto" data-bs-ride="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide my-auto position-relative" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -98,7 +98,7 @@
               </div>
         </section>
 
-        <section class="container">
+        <section class="container position-relative">
             <div aria-live="assertive" aria-atomic="true" class="position-relative">
                 <div class="toast-container position-absolute top-0 end-0 p-3">
                     <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
@@ -116,7 +116,7 @@
 
         <section class="container mt-5 mb-5 position-relative" style="height: auto;">
             <h1 class="text-center mt-5">Our package</h1>
-            <div style="height: 517px;" class="row mt-5 g-4">
+            <div class="row mt-5 g-4">
                 <div class="col-lg-3 align-self-end">
                     <div class="ps-4">
                         <h1>$300</h1>
@@ -182,13 +182,77 @@
             </div>
         </section>
 
-        
-
-
+        <section style="top: 50px; bottom: 100px; height: 600px;" class="container position-relative mb-5">
+            <h1 style="margin-bottom: 60px;" class="text-center">Frequently Asked Questions</h1>
+            <div class="row my-5 g-4 align-items-center">
+                <div class="col-lg-7">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                When are venues available for hire?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Most venues are available for hire 365 days of the year, usually between 7am and 12am. There are some restrictions on hire times, for example; at Port Hacking Hall, functions must be finished by 8pm; at Menai Community Centre, all hirers must leave by 11.30pm.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingfour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+                                Can teenage events be held in venues?
+                            </button>
+                          </h2>
+                          <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Bookings for teenage parties are not permitted in venues with the exception of 13th and 14th parties with some restrictions (there is an early finish time of 9pm, there must be 1 supervising adult per 8 teenagers and a high risk bond of $1,500 is payable).</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                What are the conditions of hire for a 21st birthday or other high risk functions?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">There is a high risk bond applied of $1,500.  Council security guards must be engaged at your cost for the duration of the party and a guest list must be supplied to Council in advance.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                What is the maximum period of hire per day?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Up to 17 hours (between 7am and midnight) with the exception of Port Hacking Community Centre (8pm for functions) and Menai Community Centre (11.30pm).</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-5">
+                    <img src="images/people.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </section>
 
     </main>
-    <footer>
 
+    <footer>
+        <section  style="background-color: #02021d; height: 300px; margin-top: 150px;">
+            <div class="d-flex align-items-center justify-content-around">
+                <div class="pt-5">
+                    <p class="text-light">© 2020 bike. All rights reserved</p>
+                </div>
+                <div class="pt-5">
+                    <div>
+                      <p class="text-light">Get the App</p>
+                      <a href="https://www.apple.com/app-store/" target="-block"><img src="images/app-store.png" alt=""></a>
+                      <br><br>
+                      <a href="https://play.google.com/store/apps" target="-block"><img src="images/google-play.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
 
     
